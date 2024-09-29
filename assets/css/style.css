@@ -15,6 +15,42 @@ body {
     
 }
 
+/* Page Headers */
+
+.page-headers {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin: 0;
+
+}
+
+/* Block Divider */
+
+.block-divider {
+    border: none;
+    height: 5px;
+    width: 40%;
+    border-radius: 5px;
+    /* Overrides BS <hr> default opacity value */
+    opacity: 1;
+    
+}
+
+.block-divider--short {
+    width: 50px;
+}
+
+.block-divider--green {
+    background-color: #53b8b8;
+}
+
+.block-divider--white {
+    background-color: #ffffff;
+}
 
 /* Navbar */
 
