@@ -35,7 +35,7 @@ body {
     height: 5px;
     width: 40%;
     border-radius: 5px;
-    /* Overrides BS <hr> default opacity value */
+    /* Overrides Bootstrap <hr> default opacity value */
     opacity: 1;
     
 }
@@ -86,6 +86,7 @@ body {
 /* Jumbotron Container */
 
 .callout-container {
+    /* Set height to full view of device screen */
     height: 100vh;
     background-color: #53b8b8;
     
@@ -93,7 +94,7 @@ body {
     align-items: center;
     justify-content: center;
     
-    position: relative;
+    /* position: relative; */
 }
 
 /* Jumbotron Content */
@@ -119,4 +120,12 @@ body {
 
 .jumbotron cite {
     color: #ffffff
+}
+
+/* Positive Thoughts Section */
+
+.positive-thoughts i {
+    
+    font-size: 10rem;
+    margin-bottom: 20px;
 }
