@@ -177,6 +177,10 @@ body {
     margin-bottom: 20px;
 }
 
+.text-positive--green {
+    color: #53b8b8;
+}
+
 /* Navigation Cards */
 
 .card-button {
