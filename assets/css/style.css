@@ -170,6 +170,12 @@ body {
     margin-bottom: 20px;
 }
 
+/* Navigation Cards */
+
+.card-button {
+    margin-top: 10px;
+}
+
 /* Footer */
 
 footer a {
