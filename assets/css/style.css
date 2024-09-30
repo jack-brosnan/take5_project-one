@@ -8,6 +8,11 @@ body {
     padding-top: 75px;
 }
 
+.accordion-container {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
 /* Section Divider Color */
 
 .container-wrapper--lightgreen {
