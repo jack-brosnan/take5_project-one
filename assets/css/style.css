@@ -65,13 +65,6 @@ body {
         
 }
 
-.btn--blue {
-    color: #ffffff;
-    background-color: #0077B6;
-    font-weight: bold;   
-    
-}
-
 .btn--cta:hover {
     font-weight: bold;
     border-radius: 23px;
@@ -80,6 +73,23 @@ body {
     color: #53b8b8;
         
 }
+
+.btn--blue {
+    color: #ffffff;
+    background-color: #0077B6;
+    font-weight: bold;   
+    
+}
+
+.btn--blue:hover {
+    background-color: #ffffff;
+    color: #0077B6;
+    font-weight: bold;
+    border-color: #0077B6;;
+        
+}
+
+
 
 
 /* Navbar */
@@ -158,4 +168,10 @@ body {
     
     font-size: 10rem;
     margin-bottom: 20px;
+}
+
+/* Footer */
+
+footer a {
+    font-weight: bold;
 }
