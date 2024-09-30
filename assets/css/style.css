@@ -103,7 +103,9 @@ body {
     margin: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.50);
+    /* background-color: rgba(0, 0, 0, 0.50); */
+    background-color: #53b8b8;
+    box-shadow: 0 2px 2px #3a3a3a;
     --bs-navbar-toggler-border-color: rgb(255, 255, 255);
 }
 
@@ -183,9 +185,9 @@ body {
 
 /* Footer */
 
-/* .footer-container {
-    margin-top: auto 0;
-} */
+.footer-container {
+    margin-top: auto;
+}
 
 footer a {
     font-weight: bold;
