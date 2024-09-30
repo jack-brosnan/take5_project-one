@@ -52,6 +52,36 @@ body {
     background-color: #ffffff;
 }
 
+/* Custom Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+    color: #ffffff;
+    background-color: #0077B6;
+    font-weight: bold;   
+    /* border-color: #c9f0f0; */
+        
+}
+
+.btn--blue {
+    color: #ffffff;
+    background-color: #0077B6;
+    font-weight: bold;   
+    
+}
+
+.btn--cta:hover {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+    background-color: #ffffff;
+    color: #53b8b8;
+        
+}
+
+
 /* Navbar */
 
 .navbar {
