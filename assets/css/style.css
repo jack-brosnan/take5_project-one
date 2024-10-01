@@ -231,7 +231,7 @@ body {
     margin-bottom: 20px;
 }
 
-.text-positive--green {
+.text-color--green {
     color: #53b8b8;
 }
 
@@ -258,6 +258,12 @@ body {
 
 .accordion-button {
     font-size: 1.25rem;
+}
+
+.accordion-text-label {
+    background-color: #53b8b8;
+    border-radius: 10px;
+    color:white;
 }
    
     
