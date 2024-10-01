@@ -58,6 +58,7 @@ body {
     background-color: rgba(83, 184, 184, 0.50);
     height: 100%;
     width: 100%;
+
 }
 
 .page-header-text {
@@ -181,7 +182,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(83, 184, 184, 0.50);
+    background-color: rgba(83, 184, 184, 0.75);
     height: 100%;
     width: 100%;
     
@@ -198,7 +199,7 @@ body {
 
     z-index: 3;
     
-    /* position: relative; */
+    position: relative;
 }
 
 .callout-container-section2 {
@@ -212,11 +213,11 @@ body {
 
     z-index: 3;
     
-    /* position: relative; */
+    position: relative;
 }
 
 .callout-container-section2 i {
-    font-size: 45px;
+    font-size: 30px;
     margin-bottom: 10px;
 }
 
