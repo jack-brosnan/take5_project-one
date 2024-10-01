@@ -1,11 +1,12 @@
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
 }
 
 /* Content Container Padding */
 .content-container {
-    padding-bottom: 75px;
-    padding-top: 75px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .accordion-container {
@@ -31,6 +32,37 @@ body {
 .page-header h2 {
     margin: 0;
 
+}
+
+/*Page title headers with background*/
+
+.page-header-container {
+    height: 20vh;
+    background: url(../images/page-header-image.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(83, 184, 184, 0.50);
+    height: 100%;
+    width: 100%;
+}
+
+.page-header-text {
+    z-index: 2;
+    color: #ffffff;
 }
 
 /* Block Divider */
@@ -223,6 +255,12 @@ body {
     outline: 0;
     box-shadow: none;
 }
+
+.accordion-button {
+    font-size: 1.25rem;
+}
+   
+    
 
 /* Footer */
 
