@@ -132,9 +132,9 @@ body {
 
 /* Jumbotron Container */
 
-.callout-container {
+.callout-container-section1 {
     /* Set height to full view of device screen */
-    height: 100vh;
+    height: 90vh;
     background-color: #53b8b8;
     
     display: flex;
@@ -143,6 +143,28 @@ body {
     
     /* position: relative; */
 }
+
+.callout-container-section2 {
+    /* Set height to full view of device screen */
+    height: 10vh;
+    background-color: #53b8b8;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* position: relative; */
+}
+
+.callout-container-section2 i {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.callout-container-section2 h3 {
+    color:#ffffff;
+}
+
 
 /* Jumbotron Content */
 
