@@ -290,6 +290,8 @@ body {
     font-weight: bold;
 }
 
+/* Custom <ol> number styles */
+
 .exercises-accordion ol {
     list-style: none;
     counter-reset: item;
