@@ -4,10 +4,23 @@ body {
     font-size: 1.25rem;
 }
 
-/* Content Container Padding */
+/* Content Container Style and Padding */
+
+main {
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); 
+}
+
 .content-container {
     padding-bottom: 0px;
-    padding-top: 30px;
+    padding-top: 30px;    
+}
+
+.postive-thoughts-container {
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); 
+}
+
+.exercise-container {
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
 }
 
 .accordion-container {
@@ -19,6 +32,7 @@ body {
 
 .container-wrapper--lightgreen {
     background-color: #c9f0f0;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); 
 
 }
 
@@ -44,6 +58,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); 
 
     display: flex;
     align-items: center;
@@ -120,7 +135,7 @@ body {
 
 }
 
-.btn--blue {
+.btn--green {
     color: #ffffff;
     background-color: #3fbaba;
     font-weight: bold;
@@ -128,11 +143,11 @@ body {
 
 }
 
-.btn--blue:hover {
-    background-color: #ffffff;
-    color: #0077B6;
+.btn--green:hover {
+    background-color: #f0f0f0;
+    color: #3fbaba;
     font-weight: bold;
-    border-color: #0077B6;
+    border-color: #3fbaba;
     ;
 
 }
@@ -201,6 +216,7 @@ body {
     /* Set height to full view of device screen */
     height: 92vh;
     background-color: transparent;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); 
 
     display: flex;
     align-items: center;
