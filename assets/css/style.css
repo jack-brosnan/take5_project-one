@@ -115,23 +115,29 @@ main {
 /* Custom Buttons */
 
 .btn--cta {
+    font-size: 1.2rem;
     font-weight: bold;
     border-radius: 23px;
-    width: 160px;
+    width: 200px;
     color: #3fbaba;
     background-color: #ffffff;
     border-color: #3fbaba;
-    font-weight: bold;
+       
     
 }
 
 .btn--cta:hover {
     font-weight: bold;
     border-radius: 23px;
-    width: 160px;
     background-color: #f0f0f0;
     color: #3fbaba;
+}
 
+.btn--cta:active {
+    font-weight: bold;
+    border-radius: 23px;
+    background-color: #f0f0f0;
+    color: #3fbaba;
 }
 
 .btn--green {
