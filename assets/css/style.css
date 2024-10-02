@@ -19,7 +19,7 @@ body {
 
 .container-wrapper--lightgreen {
     background-color: #c9f0f0;
-    
+
 }
 
 /* Page Headers */
@@ -76,7 +76,7 @@ body {
     border-radius: 5px;
     /* Overrides Bootstrap <hr> default opacity value */
     opacity: 1;
-    
+
 }
 
 .block-divider--short {
@@ -100,9 +100,9 @@ body {
     color: #3fbaba;
     background-color: #ffffff;
     border-color: #3fbaba;
-    font-weight: bold;   
+    font-weight: bold;
     /* border-color: #c9f0f0; */
-        
+
 }
 
 .btn--cta:hover {
@@ -111,23 +111,24 @@ body {
     width: 160px;
     background-color: #f0f0f0;
     color: #3fbaba;
-        
+
 }
 
 .btn--blue {
     color: #ffffff;
     background-color: #3fbaba;
     font-weight: bold;
-    font-size: 1.2rem;   
-    
+    font-size: 1.2rem;
+
 }
 
 .btn--blue:hover {
     background-color: #ffffff;
     color: #0077B6;
     font-weight: bold;
-    border-color: #0077B6;;
-        
+    border-color: #0077B6;
+    ;
+
 }
 
 
@@ -147,7 +148,7 @@ body {
 
 .navbar .navbar-toggler {
     border: 2px;
-    
+
 }
 
 .navbar-brand {
@@ -177,7 +178,7 @@ body {
     background-size: cover;
     z-index: 0;
 
-    
+
 }
 
 .opaque-overlay-hero {
@@ -187,20 +188,20 @@ body {
     background-color: rgba(83, 184, 184, 0.75);
     height: 100%;
     width: 100%;
-    
+
 }
 
 .callout-container-section1 {
     /* Set height to full view of device screen */
     height: 92vh;
     background-color: transparent;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
 
     z-index: 3;
-    
+
     position: relative;
 }
 
@@ -210,12 +211,12 @@ body {
     color: #fafafa;
     font-weight: bold;
     margin-bottom: 30px;
-    
+
 }
 
 .jumbotron .lead {
     color: #ffffff;
-    
+
 }
 
 .jumbotron small {
@@ -234,7 +235,7 @@ body {
 /* Positive Thoughts Section */
 
 .positive-thoughts i {
-    
+
     font-size: 10rem;
     margin-bottom: 20px;
 }
@@ -277,11 +278,45 @@ body {
 .accordion-text-label {
     background-color: #53b8b8;
     border-radius: 10px;
-    color:white;
+    color: white;
     font-size: 1rem;
 }
-   
-    
+
+/* Exercise Accordion Content */
+
+.exercises-accordion h4 {
+    text-align: center;
+    color: #53b8b8;
+    font-weight: bold;
+}
+
+.exercises-accordion ol {
+    list-style: none;
+    counter-reset: item;
+}
+
+.exercises-accordion li {
+    counter-increment: item;
+    margin-bottom: 5px;
+    position: relative;
+    padding-bottom: 10px;;
+}
+
+.exercises-accordion li:before {
+    margin-right: 10px;
+    content: counter(item);
+    background: #53b8b8;
+    border-radius: 50%;
+    color: #ffffff;
+    width: 1.4em;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: -40px;
+}
+
+
 
 /* Footer */
 
