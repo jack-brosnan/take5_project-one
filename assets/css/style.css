@@ -91,6 +91,12 @@ body {
     background-color: #ffffff;
 }
 
+/* text highlighting */
+
+.text-color--green {
+    color: #3fbaba;
+}
+
 /* Custom Buttons */
 
 .btn--cta {
@@ -281,6 +287,32 @@ body {
     color: white;
     font-size: 1rem;
 }
+
+/* Resource Accordion Content */
+
+.resources-accordion h4 {
+    text-align: center;
+    color: #53b8b8;
+    font-weight: bold;
+}
+
+.resources-accordion ul li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.resources-accordion a {
+    text-decoration: none;
+    color: #53b8b8;
+    font-weight: bold;
+}
+
+.resources-accordion a:hover {
+    text-decoration: none;
+    color: #377676;
+    font-weight: bold;
+}
+
 
 /* Exercise Accordion Content */
 
