@@ -192,7 +192,7 @@ body {
 
 .callout-container-section1 {
     /* Set height to full view of device screen */
-    height: 82vh;
+    height: 92vh;
     background-color: transparent;
     
     display: flex;
@@ -203,30 +203,6 @@ body {
     
     position: relative;
 }
-
-.callout-container-section2 {
-    /* Set height to full view of device screen */
-    height: 10vh;
-    background-color: transparent;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    z-index: 3;
-    
-    position: relative;
-}
-
-.callout-container-section2 i {
-    font-size: 30px;
-    margin-bottom: 10px;
-}
-
-.callout-container-section2 h3 {
-    color:#ffffff;
-}
-
 
 /* Jumbotron Content */
 
