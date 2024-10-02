@@ -1,131 +1,82 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Take5
 
-Welcome Jack Brosnan,
+This website is designed to provide helpful resources and support for individuals experiencing stress and anxiety. It aims to serve as a guide to understanding and managing these challenges through various techniques, including breathing exercises and coping strategies.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+## Features 
 
-## Gitpod Reminders
+- Simple, User-Friendly Design: The site is designed to be easy to navigate, offering users a calm and supportive experience.
+- Breathing Exercises: Step-by-step instructions for guided breathing exercises to help manage stress and reduce anxiety in the moment.
+- Coping Strategies: Information and tips on how to cope with anxiety, including lifestyle changes, mindfulness techniques, and helpful resources.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+### Existing Features
 
-A blue button should appear to click: _Make Public_,
+- __Navigation Bar__
 
-Another blue button should appear to click: _Open Browser_.
+  - Featured on all three pages, the full responsive navigation bar includes links to the Title, Home page, Exercise and Resource page and is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+- __The landing page__
 
-A blue button should appear to click: _Make Public_,
+  - The landing includes a mountain range backdrop picture with green opaque overlay to help the user have a calming and relaxing experience.
+  - This section introduces the user to Take5 including a summary of the sites mission and featured content.
 
-Another blue button should appear to click: _Open Browser_.
+- __The Positive Reaffirmation section__
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  - Further down the landing page, there is a section to discuss the importance of positive reaffirmation.
+  - Also, there is a appropriate placement of a quote that strengthens the importance of the above topic.
 
-To log into the Heroku toolbelt CLI:
+- __Navigation Cards__
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+  - At the bottom of the landing page, you will find interactive Bootstrap navigation cards. 
+  - These visually engaging cards provide quick access to key sections of the website, such as the breathing exercises and additional resources. 
+  - The cards are responsive, ensuring a seamless browsing experience across different devices.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
 
-### Connecting your Mongo database
+- __Understanding Anxiety__
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+  - This section the user is provided with information on information and tips on managing anxiety, including lifestyle changes, mindfulness techniques, and practical approaches to improving mental health.
 
-------
+- __Breathing Exercises__
 
-## Release History
+  - This section the user is provided step-by-step guided breathing exercises to help reduce stress and manage anxiety in real time.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- __The Footer__ 
 
-**June 18, 2024,** Add Mongo back into template
+  - The footer section includes links to all key pages within the site.
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+### Features Left to Implement
 
-**May 28 2024:** Fix Mongo and Links installs
+- External links to mental health help sites with more resources including - Articles and Blogs, Community forums and Goverment helplines
+- Bootstrap modal pop up windows for breathing exercise walkthrough videos
 
-**April 26 2024:** Update node version to 16
 
-**September 20 2023:** Update Python version to 3.9.17.
+### Validator Testing 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- All HTML and CSS code was validated using the following tools:
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+  - HTML Validation: W3C HTML Validator was used to ensure that the HTML code is free from syntax errors.
+  - CSS Validation: W3C CSS Validator was used to validate the CSS code for potential errors or compatibility issues.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- Results showed that the majority of the code passed the validation without issues. Any warnings or minor errors identified during testing were promptly resolved.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Unfixed Bugs
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+ - Navbar overlapping page content. 
+ - Hero section display issues on smaller devices.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Deployment
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+The live link can be found here - https://jack-brosnan.github.io/take5_project-one/
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Content 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- The text for the Resource page  was taken from Aware.ie
+- The image icons in displayed on the site were taken from [Font Awesome](https://fontawesome.com/)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Media
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- The photos used on the home and sign up page are from This Open Source site
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
